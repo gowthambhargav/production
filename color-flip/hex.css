@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    background:#F1f5f8 ;
+}
+:root{
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+nav{
+    box-shadow: var(--dark-shadow);
+    padding: 14px 10px;
+    background-color: #ffffff;
+}
+
+.navbar{
+    margin: 0 auto;
+    width: 50%;
+}
+.nav-links{
+    
+    margin: -25px 0px 0px 0px;
+    float: right;
+    /* text-align: right; */
+}
+
+.nav-links>li{
+    
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0px 0px 0px 28px;
+    /* margin-right: 32px; */
+    display: inline-block;
+}
+.navbar>h3{
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+main{
+    min-height: 93vh;
+    display: grid;
+    place-items: center;
+  
+}
+
+#btns{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: none;
+    letter-spacing: 5px;
+    padding: 0.70rem 1.25rem;
+    border: 2px solid #222;
+    transition: all 0.5s;
+}
+#btns:hover{
+    color: #fff;
+    background: #222;
+}
+.maincon{
+    text-align: center;
+}
+.maincon h2{
+    font-size: 2.4rem;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    background:#222 ;
+    color: #fff;
+    padding:0.8rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+.maincon h2 span{
+    color: hsl(205deg 78% 60%);
+}
+
+
+
+
